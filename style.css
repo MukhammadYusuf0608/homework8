@@ -1,0 +1,306 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 46px 0;
+}
+
+.navbar img {
+  width: 159px;
+  height: 41px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+ul li a {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.59px;
+  color: #1F1534;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+
+}
+
+ul li a:hover {
+  font-weight: 700;
+
+
+}
+
+.main1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 91px 0;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+  gap: 35px;
+}
+
+.right h1 {
+  font-family: Mulish;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+}
+
+.right p {
+  font-family: Mulish;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #7D7987;
+}
+
+img {
+  width: 609px;
+  height: 466.68px;
+  justify-content: flex-end;
+}
+
+button {
+  max-width: 197px;
+  padding: 14px 37px;
+  border-radius: 55px;
+  background-color: transparent;
+  color: #1F1534;
+  font-family: Mulish;
+  font-weight: 700;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #458FF6;
+  color: white;
+  border: none;
+}
+
+.main_text {
+  font-family: Mulish;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+}
+
+.text {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+  margin: 64px 0;
+
+
+}
+
+.card_text h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 56px;
+  font-family: Mulish;
+
+}
+
+.card {
+  width: 30%;
+  background-color: #E7E7E7;
+  border-radius: 20px;
+  padding: 51px 56px 31px 39px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: black;
+  transition: 0.3s ease-in-out;
+}
+
+.card img {
+  width: 96.16px;
+  height: 93.24px;
+}
+
+.card_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Mulish;
+}
+
+.card:hover {
+  background-color: #5A98F2;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  row-gap: 40px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.textg {
+  font-family: Mulish;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+  margin: 76px 0;
+}
+
+.main2 {
+  display: flex;
+}
+
+.left2 {
+  display: flex;
+  flex-direction: column;
+  margin: 111px 0 0 112px;
+}
+
+.left2 h2 {
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  width: 434.98px;
+
+}
+
+.left2 p {
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 62px 0;
+
+}
+
+.textc {
+  margin: 152px 0;
+  font-family: Mulish;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: center;
+}
+
+.cards3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card3 {
+  width: 30%;
+  padding: 51px 56px 31px 39px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: black;
+}
+
+.card3 img {
+  width: 100%;
+  height: 190px;
+}
+
+.read img {
+  width: 14.14px;
+  height: 9px;
+}
+
+.read a {
+  text-decoration: none;
+  color: #4089ED;
+}
+
+.card3 h2 {
+  font-family: Mulish;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 32px;
+  width: 251px;
+  height: 64px;
+}
+
+.card3 p {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #7D7987;
+  width: 266px;
+  height: 84px;
+}
+
+footer {
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  margin-top: 300px;
+}
+
+.f1 img {
+  width: 170.24px;
+  height: 41px;
+  margin-left: 6px;
+  margin-top: 159px;
+
+}
+
+.f1 p {
+  width: 386px;
+  height: 84px;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: white;
+  padding: 17px 0;
+  margin-bottom: 131px;
+}
+
+.f2 ul {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.f2 ul li {
+  /* width: 90px; */
+  font-family: Mulish;
+  color: white;
+}
+
+.footer_nav {
+  display: flex;
+  gap: 170px;
+  align-items: center;
+}
